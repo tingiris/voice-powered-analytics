@@ -9,7 +9,7 @@ In this lab we will use QuickSight to explore our dataset and visualize a few in
 This is an optional step of the optional lab. It is intended to give you a better understanding of the data we are using for the lab. 
 If you don't want to inspect the JSON files you can safely skip this step and continue with [Step 2](#step-2---create-an-athena-table). 
 Each file in s3 has a collection of JSON objects stored within the file.
-In addition, the files have been gziped by [Kinesis FIrehose](https://aws.amazon.com/kinesis/firehose/) which saves cost and improves performance.
+In addition, the files have been gziped by [Kinesis Firehose](https://aws.amazon.com/kinesis/firehose/) which saves cost and improves performance.
 
 We will be using a dataset created from Twitter data related to AWS re:Invent 2017. 
 This dataset includes tweets with the #reinvent hashtag or to/from @awsreinvent. 
